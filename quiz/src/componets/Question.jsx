@@ -13,7 +13,7 @@ const Question = () => {
   const onSelectOption = (option) =>{
     dispatch({
       type: "CHECK_ANSWER",
-      payboad: {answer: currentQuestion.answer, option},
+      payload: {answer: currentQuestion.answer, option},
     });
   }
 
